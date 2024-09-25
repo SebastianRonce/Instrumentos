@@ -59,6 +59,7 @@ def main():
         try:
             opcion = int(input("Seleccione una opción: "))
             if opcion == 6:
+            if opcion == 6:
                 print("Saliendo del sistema.")
                 break
             elif opcion in instrumentos:
